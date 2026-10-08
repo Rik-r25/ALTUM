@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <title>ALTUM — натяжные потолки, Нижний Тагил</title>
+  <meta name="description" content="ALTUM — натяжные потолки в Нижнем Тагиле. Телефон, VK, почта, Instagram и Telegram.">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ALTUM — натяжные потолки, Нижний Тагил">
+  <meta property="og:description" content="Телефон, VK, почта, Instagram и Telegram.">
+
+  <link rel="icon" type="image/svg+xml" href="assets/img/owl.svg">
+
+  <!-- Шрифт Montserrat (Google Fonts) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,700&amp;display=swap">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <main class="page">
+
+    <!-- Шапка: сова — логотип — сова, подпись и разделитель -->
+    <header class="brand">
+      <img class="brand__owl" src="assets/img/owl.svg" alt="" width="202" height="261">
+
+      <div class="brand__center">
+        <h1 class="brand__logo">
+          <img src="assets/img/wordmark.svg" alt="ALTUM" width="602" height="127">
+        </h1>
+        <p class="brand__tagline">
+          <span>Натяжные потолки</span>
+          <span class="brand__dot" aria-hidden="true">·</span>
+          <span>Нижний Тагил</span>
+        </p>
+      </div>
+
+      <img class="brand__owl" src="assets/img/owl.svg" alt="" width="202" height="261">
+
+      <span class="brand__rule" aria-hidden="true"></span>
+    </header>
+
+    <!-- Карточка с контактами -->
+    <nav class="card" aria-label="Контакты">
+
+      <!-- 1. Телефон: на ПК копирует номер, на телефоне открывает набор номера (см. js/script.js) -->
+      <a class="btn" href="tel:+79994243313" data-action="phone" data-copy="+79994243313">
+        <img class="btn__icon" src="assets/icons/phone.svg" alt="" width="54" height="54">
+        <span class="btn__label">+79994243313</span>
+      </a>
+
+      <!-- 2. VK -->
+      <a class="btn" href="https://vk.ru/altumnt" target="_blank" rel="noopener noreferrer">
+        <img class="btn__icon" src="assets/icons/vk.svg" alt="" width="54" height="54">
+        <span class="btn__label">https://vk.ru/altumnt</span>
+      </a>
+
+      <!-- 3. Почта: адрес копируется в буфер, и сразу открывается почтовая программа -->
+      <a class="btn" href="mailto:altum13.nt@gmail.com" data-action="mail" data-copy="altum13.nt@gmail.com">
+        <img class="btn__icon" src="assets/icons/mail.svg" alt="" width="54" height="54">
+        <span class="btn__label">altum13.nt@gmail.com</span>
+      </a>
+
+      <!-- 4. Instagram -->
+      <a class="btn" href="https://www.instagram.com/altumnt?stkn=ZmpxdGsxYWdodDk0" target="_blank" rel="noopener noreferrer" aria-label="Instagram: @altumnt">
+        <img class="btn__icon" src="assets/icons/instagram.svg" alt="" width="54" height="54">
+        <span class="btn__label">@altumnt</span>
+      </a>
+
+      <!-- 5. Telegram -->
+      <a class="btn" href="https://t.me/altumnt" target="_blank" rel="noopener noreferrer" aria-label="Telegram: @altumnt">
+        <img class="btn__icon" src="assets/icons/telegram.svg" alt="" width="54" height="54">
+        <span class="btn__label">@altumnt</span>
+      </a>
+
+    </nav>
+
+  </main>
+
+  <!-- Всплывающее уведомление (например, «Номер скопирован») -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
